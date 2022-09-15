@@ -126,8 +126,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <div class="form-style">  
                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">  
                             <div class="form-group pb-3">
-                                <label for="" class="fw-bolder" style="color: #948869;">Email</label>
-                                <input type="text" placeholder="example@gmail.com" name="name" class="form-control <?php echo (!empty($name_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $name; ?>"> 
+                                <label for="" class="fw-bolder" style="color: #948869;">Username</label>
+                                <input type="text" placeholder="example123" name="name" class="form-control <?php echo (!empty($name_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $name; ?>"> 
                                 <span class="invalid-feedback"><?php echo $name_err; ?></span>   
                             </div>  
                             <div class="form-group pb-1"> 

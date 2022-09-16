@@ -7,7 +7,7 @@ session_start();
  
 // Cek jika user sudah login, jika sudah maka akan dialihkan ke home
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: home2.php");
+    header("location: home.php");
     exit;
 }
  
